@@ -1,0 +1,23 @@
+{
+  "name": "katandb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha ./test/**/*.specs.js"
+  },
+  "author": "Nadav Dav",
+  "license": "MIT",
+  "devDependencies": {
+    "hamjest": "^2.13.0",
+    "mocha": "^3.1.2",
+    "request": "^2.75.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongomatch": "^0.1.0",
+    "uuid": "^2.0.3"
+  }
+}

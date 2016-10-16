@@ -1,4 +1,4 @@
 module.exports = {
-  KatanDb: require('./KatanDb'),
-  KatanServer: require('./KatanServer'),
+  KatanDb: require('./KatanDb').KatanDb,
+  KatanServer: require('./KatanServer').KatanServer,
 };
